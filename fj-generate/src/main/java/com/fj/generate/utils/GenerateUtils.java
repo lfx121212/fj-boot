@@ -5,8 +5,11 @@ import com.baomidou.mybatisplus.core.toolkit.StringPool;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.InjectionConfig;
 import com.baomidou.mybatisplus.generator.config.*;
+import com.baomidou.mybatisplus.generator.config.converts.MySqlTypeConvert;
 import com.baomidou.mybatisplus.generator.config.po.TableInfo;
 import com.baomidou.mybatisplus.generator.config.rules.DateType;
+import com.baomidou.mybatisplus.generator.config.rules.DbColumnType;
+import com.baomidou.mybatisplus.generator.config.rules.IColumnType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.fj.common.utils.LoggerUtil;
 import com.fj.generate.entity.Generate;
@@ -57,6 +60,8 @@ public class GenerateUtils {
         boolean isTableNameUppercase = generate.getIsTableNameUppercase();
         //要生成的表名
         String[] tables = generate.getTables();
+        // 表用户
+        String schemaName = generate.getSchemaName();
 
         // 1.创建代码生成器
         AutoGenerator ag = new AutoGenerator();
@@ -86,6 +91,46 @@ public class GenerateUtils {
         dataSourceConfig.setUsername(userName);
         dataSourceConfig.setPassword(passWord);
         dataSourceConfig.setDbType(dbType);
+        dataSourceConfig.setSchemaName(schemaName.toUpperCase());
+        // 转换数据类型
+        dataSourceConfig.setTypeConvert(new MySqlTypeConvert() {
+
+            @Override
+            public IColumnType processTypeConvert(GlobalConfig globalConfig, String fieldType) {
+                String t = fieldType.toLowerCase();
+                if (t.contains("char")) {
+                    return DbColumnType.STRING;
+                } else if (t.contains("date") || t.contains("timestamp") || t.contains("datetime")) {
+                    switch (globalConfig.getDateType()) {
+                        case ONLY_DATE:
+                            return DbColumnType.DATE;
+                        case SQL_PACK:
+                            return DbColumnType.TIMESTAMP;
+                        case TIME_PACK:
+                            return DbColumnType.LOCAL_DATE_TIME;
+                    }
+                } else if (t.contains("number")) {
+                    if (t.matches("number") || t.matches("number\\(+\\d\\)")) {
+                        return DbColumnType.INTEGER;
+                    } else if (t.matches("number\\(+\\d{2}+\\)")) {
+                        return DbColumnType.LONG;
+                    }
+                    return DbColumnType.BIG_DECIMAL;
+                } else if (t.contains("float")) {
+                    return DbColumnType.FLOAT;
+                } else if (t.contains("clob")) {
+                    return DbColumnType.STRING;
+                } else if (t.contains("blob")) {
+                    return DbColumnType.BLOB;
+                } else if (t.contains("binary")) {
+                    return DbColumnType.BYTE_ARRAY;
+                } else if (t.contains("raw")) {
+                    return DbColumnType.BYTE_ARRAY;
+                }
+                return DbColumnType.STRING;
+            }
+
+        });
         ag.setDataSource(dataSourceConfig);
 
         // 4.包配置
@@ -105,6 +150,7 @@ public class GenerateUtils {
         StrategyConfig strategyConfig = new StrategyConfig();
         // 表名生成策略
         strategyConfig.setNaming(NamingStrategy.underline_to_camel);
+        strategyConfig.setTablePrefix(new String[]{prefix}); // 此处可以修改为您的表前缀
         strategyConfig.setTablePrefix(prefix);
         strategyConfig.setEntityLombokModel(true);//自动lombok
         strategyConfig.setRestControllerStyle(true);
@@ -147,6 +193,7 @@ public class GenerateUtils {
         focList.add(new FileOutConfig(templatePath) {
             @Override
             public String outputFile(TableInfo tableInfo) {
+                tableInfo.setConvert(true);
                 // 自定义输出文件名 ， 如果你 Entity 设置了前后缀、此处注意 xml 的名称会跟着发生变化！！
                 return  propertyPath + resources + tableInfo.getEntityName() + "Mapper" + StringPool.DOT_XML;
             }

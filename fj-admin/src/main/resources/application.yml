@@ -2,6 +2,8 @@
 server:
   # 端口号 （四月初九）
   port: 10409
+  # 项目版本
+  version: V1.0
   # 接口
   servlet:
     context-path: /
@@ -33,3 +35,14 @@ mybatis-plus:
 mybatis-plus-join:
   # 关闭mybatis plus join启动图标
   banner: false
+
+# swagger 配置
+swagger:
+  #  是否启用swagger
+  enable: true
+
+# 日志配置
+logging:
+  level:
+    com.fj: debug
+    org.springframework: warn

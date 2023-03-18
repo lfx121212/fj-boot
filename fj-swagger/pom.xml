@@ -13,4 +13,11 @@
     <artifactId>fj-swagger</artifactId>
     <description>Swagger</description>
 
+    <!--依赖注入-->
+    <dependencies>
+        <dependency>
+            <groupId>com.fj</groupId>
+            <artifactId>fj-common</artifactId>
+        </dependency>
+    </dependencies>
 </project>

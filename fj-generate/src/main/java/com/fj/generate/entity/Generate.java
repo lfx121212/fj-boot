@@ -24,7 +24,7 @@ public class Generate {
     // 生成后是否打开资源路径
     private Boolean isOpen = false;
     // 重新生成文件是否覆盖
-    private Boolean isFileOverride = false;
+    private Boolean isFileOverride = true;
     // 是否开启Swagger2模式
     private Boolean isSwagger2 = true;
     // 数据源配置
@@ -44,5 +44,7 @@ public class Generate {
     //是否将表名转大写字母
     private Boolean isTableNameUppercase = true;
     //要生成的表名
-    private String[] tables = {"student"};
+    private String[] tables = {"STUDENT"};
+    // 表用户
+    private String schemaName = "FJ";
 }

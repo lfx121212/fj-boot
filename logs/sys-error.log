@@ -1,0 +1,12 @@
+02:40:24.676 [http-nio-10409-exec-3] ERROR  - [printInfo,42] - <----- org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'fj.student_vo' doesn't exist
+### The error may exist in com/fj/business/student/mapper/IStudentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT    id,name,age,gender,remark    FROM student_vo
+### Cause: java.sql.SQLSyntaxErrorException: Table 'fj.student_vo' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'fj.student_vo' doesn't exist ----->	 com.fj.business.student.controller.StudentController.getStudengList(StudentController.java:53)
+03:01:59.207 [http-nio-10409-exec-9] ERROR  - [printInfo,42] - <----- org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'table' not found. Available parameters are [ew, param1] ----->	 com.fj.business.student.controller.StudentController.getList(StudentController.java:52)
+03:02:30.375 [http-nio-10409-exec-10] ERROR  - [printInfo,42] - <----- org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'table' not found. Available parameters are [ew, param1] ----->	 com.fj.business.student.controller.StudentController.getList(StudentController.java:52)
+03:02:46.480 [http-nio-10409-exec-2] ERROR  - [printInfo,42] - <----- org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'table' not found. Available parameters are [ew, param1] ----->	 com.fj.business.student.controller.StudentController.getList(StudentController.java:52)
+03:05:04.950 [http-nio-10409-exec-1] ERROR  - [printInfo,42] - <----- org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'table' not found. Available parameters are [ew, param1] ----->	 com.fj.business.student.controller.StudentController.getList(StudentController.java:52)

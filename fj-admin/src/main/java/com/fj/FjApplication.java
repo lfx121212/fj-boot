@@ -15,6 +15,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
 public class FjApplication {
     public static void main(String[] args) {
+        System.setProperty("appName", FjApplication.class.getSimpleName());
         SpringApplication.run(FjApplication.class);
     }
 }

@@ -1,5 +1,5 @@
 package ${package.EntityVo};
-
+import com.baomidou.mybatisplus.annotation.TableName;
 #foreach($pkg in ${table.importPackages})
 import ${pkg};
 #end

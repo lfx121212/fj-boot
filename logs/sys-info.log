@@ -1,0 +1,373 @@
+02:34:59.230 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 8076 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+02:34:59.230 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+02:35:00.136 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+02:35:00.136 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+02:35:00.136 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02:35:00.605 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+02:35:00.667 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+02:35:00.730 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+02:35:00.745 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+02:35:01.464 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:35:01.605 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+02:35:01.620 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+02:35:01.620 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+02:35:01.651 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+02:35:01.730 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.698 seconds (JVM running for 3.439)
+02:35:16.777 [http-nio-10409-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1678424333] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+02:35:16.796 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:38:19.675 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 30060 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+02:38:19.675 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+02:38:20.550 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+02:38:20.550 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+02:38:20.550 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02:38:20.612 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+02:38:20.659 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+02:38:20.737 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+02:38:20.753 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+02:38:21.566 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:38:21.722 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+02:38:21.722 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+02:38:21.738 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+02:38:21.769 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+02:38:21.847 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.382 seconds (JVM running for 3.073)
+02:38:38.277 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 22760 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+02:38:38.277 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+02:38:39.059 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+02:38:39.059 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+02:38:39.059 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02:38:39.121 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+02:38:39.184 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+02:38:39.246 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+02:38:39.262 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+02:38:39.965 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:38:40.106 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+02:38:40.106 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+02:38:40.121 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+02:38:40.152 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+02:38:40.246 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.166 seconds (JVM running for 2.829)
+02:38:50.088 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 16088 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+02:38:50.088 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+02:38:50.885 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+02:38:50.885 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+02:38:50.885 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02:38:50.948 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+02:38:51.010 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+02:38:51.073 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+02:38:51.088 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+02:38:51.885 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:38:52.026 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+02:38:52.026 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+02:38:52.042 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+02:38:52.073 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+02:38:52.151 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.295 seconds (JVM running for 2.965)
+02:39:11.443 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 2944 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+02:39:11.443 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+02:39:12.240 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+02:39:12.240 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+02:39:12.240 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02:39:12.302 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+02:39:12.365 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+02:39:12.427 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+02:39:12.443 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+02:39:13.209 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:39:13.349 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+02:39:13.365 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+02:39:13.380 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+02:39:13.396 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+02:39:13.490 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.263 seconds (JVM running for 2.959)
+02:40:11.543 [http-nio-10409-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1678424333] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+02:40:11.549 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:42:36.592 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 17896 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+02:42:36.592 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+02:42:37.561 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+02:42:37.561 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+02:42:37.561 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02:42:37.623 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+02:42:37.686 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+02:42:37.764 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+02:42:37.764 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+02:42:38.530 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:42:38.686 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+02:42:38.701 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+02:42:38.717 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+02:42:38.748 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+02:42:38.827 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.443 seconds (JVM running for 3.114)
+02:42:44.863 [http-nio-10409-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1678424333] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+02:42:44.879 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:52:05.347 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 16572 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+02:52:05.363 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+02:52:06.160 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+02:52:06.160 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+02:52:06.160 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02:52:06.222 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+02:52:06.457 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:52:06.581 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+02:52:06.691 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+02:52:06.706 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+02:52:07.254 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+02:52:07.269 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+02:52:07.285 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+02:52:07.301 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+02:52:07.348 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.198 seconds (JVM running for 2.852)
+02:52:12.335 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:53:44.452 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 10860 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+02:53:44.452 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+02:53:45.264 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+02:53:45.264 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+02:53:45.264 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02:53:45.327 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+02:53:45.545 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:53:45.655 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+02:53:45.764 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+02:53:45.780 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+02:53:46.264 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+02:53:46.280 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+02:53:46.280 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+02:53:46.311 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+02:53:46.358 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.101 seconds (JVM running for 2.823)
+02:53:54.220 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:57:32.886 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 824 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+02:57:32.886 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+02:57:33.715 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+02:57:33.715 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+02:57:33.715 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02:57:33.793 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+02:57:34.027 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:57:34.152 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+02:57:34.261 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+02:57:34.293 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+02:57:34.777 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+02:57:34.793 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+02:57:34.808 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+02:57:34.824 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+02:57:34.886 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.21 seconds (JVM running for 2.874)
+02:57:36.544 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:57:45.055 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 15140 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+02:57:45.070 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+02:57:46.008 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+02:57:46.008 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+02:57:46.008 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02:57:46.071 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+02:57:46.133 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+02:57:46.196 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+02:57:46.196 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+02:57:46.899 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+02:57:47.040 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+02:57:47.055 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+02:57:47.071 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+02:57:47.086 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+02:57:47.133 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.29 seconds (JVM running for 3.054)
+03:01:14.528 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 20656 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:01:14.528 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:01:15.341 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:01:15.341 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:01:15.341 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:01:15.403 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:01:15.466 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:01:15.528 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:01:15.544 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:01:16.263 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:01:16.388 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:01:16.403 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:01:16.419 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:01:16.435 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:01:16.513 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.214 seconds (JVM running for 2.954)
+03:01:26.759 [http-nio-10409-exec-2] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1678424333] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+03:01:26.759 [http-nio-10409-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:05:07.880 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 14884 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:05:07.880 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:05:08.740 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:05:08.740 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:05:08.740 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:05:08.818 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:05:08.880 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:05:08.958 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:05:08.958 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:05:09.693 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:05:09.834 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:05:09.849 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:05:09.865 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:05:09.896 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:05:09.974 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.3 seconds (JVM running for 3.025)
+03:05:24.877 [http-nio-10409-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:05:34.194 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 17924 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:05:34.194 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:05:35.038 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:05:35.038 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:05:35.038 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:05:35.100 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:05:35.163 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:05:35.242 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:05:35.242 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:05:35.929 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:05:36.070 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:05:36.086 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:05:36.101 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:05:36.117 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:05:36.195 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.208 seconds (JVM running for 2.869)
+03:05:57.522 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 8096 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:05:57.522 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:05:58.444 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:05:58.444 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:05:58.444 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:05:58.506 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:05:58.553 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:05:58.631 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:05:58.647 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:05:59.444 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:05:59.584 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:05:59.600 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:05:59.616 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:05:59.631 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:05:59.742 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.448 seconds (JVM running for 3.28)
+03:06:02.062 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:07:05.382 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 5784 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:07:05.382 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:07:06.211 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:07:06.211 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:07:06.211 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:07:06.273 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:07:06.336 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:07:06.414 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:07:06.414 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:07:07.164 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:07:07.305 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:07:07.320 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:07:07.320 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:07:07.352 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:07:07.399 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.225 seconds (JVM running for 2.882)
+03:07:13.638 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:09:03.944 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 5200 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:09:03.944 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:09:04.788 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:09:04.788 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:09:04.788 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:09:04.850 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:09:04.928 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:09:04.991 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:09:05.006 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:09:05.866 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:09:06.007 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:09:06.022 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:09:06.022 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:09:06.053 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:09:06.100 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.351 seconds (JVM running for 3.02)
+03:09:14.224 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:10:16.093 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 20016 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:10:16.093 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:10:17.031 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:10:17.031 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:10:17.031 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:10:17.093 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:10:17.156 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:10:17.219 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:10:17.219 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:10:17.922 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:10:18.078 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:10:18.078 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:10:18.093 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:10:18.109 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:10:18.175 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.28 seconds (JVM running for 2.984)
+03:10:24.888 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:12:38.102 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 27604 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:12:38.102 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:12:38.949 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:12:38.949 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:12:38.949 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:12:39.335 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:12:39.413 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:12:39.491 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:12:39.491 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:12:40.366 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:12:40.507 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:12:40.523 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:12:40.538 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:12:40.569 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:12:40.616 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.73 seconds (JVM running for 3.407)
+03:12:44.601 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:14:26.442 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 10560 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:14:26.442 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:14:27.271 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:14:27.271 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:14:27.271 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:14:27.334 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:14:27.412 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:14:27.474 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:14:27.490 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:14:28.287 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:14:28.443 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:14:28.459 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:14:28.475 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:14:28.490 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:14:28.553 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.314 seconds (JVM running for 2.995)
+03:14:34.051 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:17:21.549 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 13292 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:17:21.549 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:17:22.392 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:17:22.392 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:17:22.392 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:17:22.486 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:17:22.548 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:17:22.611 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:17:22.626 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:17:23.439 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:17:23.607 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:17:23.622 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:17:23.638 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:17:23.669 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:17:23.716 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.373 seconds (JVM running for 3.038)
+03:17:27.829 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:25:09.461 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 27452 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:25:09.461 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:25:10.258 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:25:10.258 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:25:10.258 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:25:10.320 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:25:10.524 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:25:10.633 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:25:10.742 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:25:10.758 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:25:11.243 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:25:11.258 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:25:11.274 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:25:11.289 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:25:11.336 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.081 seconds (JVM running for 2.822)
+03:25:26.418 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:29:52.787 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 21024 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:29:52.787 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:29:53.631 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:29:53.631 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:29:53.631 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:29:53.709 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:29:53.944 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:29:54.053 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:29:54.147 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:29:54.162 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:29:54.647 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:29:54.662 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:29:54.678 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:29:54.694 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:29:54.741 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.159 seconds (JVM running for 2.817)
+03:29:57.992 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:32:28.226 [restartedMain] INFO  com.fj.FjApplication - [logStarting,55] - Starting FjApplication on lfx10302 with PID 13136 (D:\java\git\private\fj-boot\fj-admin\target\classes started by 10302 in D:\java\git\private\fj-boot)
+03:32:28.226 [restartedMain] INFO  com.fj.FjApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+03:32:29.039 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10409"]
+03:32:29.039 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+03:32:29.039 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+03:32:29.101 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+03:32:29.164 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+03:32:29.226 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+03:32:29.242 [restartedMain] INFO  c.g.y.a.MybatisPlusJoinAutoConfiguration - [mpjSqlInjector,89] - MPJSqlInjector init
+03:32:29.945 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:32:30.086 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10409"]
+03:32:30.101 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+03:32:30.117 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+03:32:30.132 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+03:32:30.211 [restartedMain] INFO  com.fj.FjApplication - [logStarted,61] - Started FjApplication in 2.192 seconds (JVM running for 3.042)
+03:32:34.748 [http-nio-10409-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1678424333] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+03:32:34.752 [http-nio-10409-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
