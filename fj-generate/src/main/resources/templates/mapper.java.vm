@@ -1,0 +1,22 @@
+package ${package.Mapper};
+
+import org.apache.ibatis.annotations.Mapper;
+
+import ${package.EntityVo}.${entityVo};
+import ${superMapperClassPackage};
+
+/**
+ * <p>
+ * $!{table.comment} Mapper 接口
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+#if(${kotlin})
+interface ${table.mapperName} : ${superMapperClass}<${entityVo}>
+#else
+public interface ${table.mapperName} extends ${superMapperClass}<${entityVo}> {
+
+}
+#end

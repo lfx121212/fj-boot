@@ -1,0 +1,35 @@
+# 项目配置
+server:
+  # 端口号 （四月初九）
+  port: 10409
+  # 接口
+  servlet:
+    context-path: /
+
+# spring配置加载
+spring:
+  # 资源信息
+  messages:
+    # 国际化资源文件路径
+    basename: static/i18n/messages
+  # 数据库配置
+  profiles:
+    active: druid
+
+# mybatis plus配置
+mybatis-plus:
+  # 配置全局文件
+  config-location: classpath:mybatis/mybatis-config.xml
+  # mapper配置文件。可能有多个，所以Mapper.xml结尾的都添加进来
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  # 配置搜索的包路径
+  type-aliases-package: com.fj.business.**.domain
+  # 全局配置
+  global-config:
+    # 关闭mybatis plus启动图标
+    banner: false
+
+# mybatis plus join配置
+mybatis-plus-join:
+  # 关闭mybatis plus join启动图标
+  banner: false
