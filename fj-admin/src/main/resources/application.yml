@@ -6,7 +6,7 @@ server:
   version: V1.0
   # 接口
   servlet:
-    context-path: /
+    context-path: /fj
 
 # spring配置加载
 spring:
